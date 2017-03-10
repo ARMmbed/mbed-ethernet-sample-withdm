@@ -136,7 +136,7 @@ Connector::Options *configure_endpoint(Connector::OptionsBuilder &config)
 
 #if USE_K64F_ACCELEROMETER
 		// K64F FXOS8700CQ Accelerometer
-	    .addResource(&accel)                        // observe on demand ("shake"...)
+	    .addResource(&accel,(bool)false)            // observe on demand ("shake"...)
 #endif // USE_K64F_ACCELEROMETER
                    
         // finalize the configuration...
