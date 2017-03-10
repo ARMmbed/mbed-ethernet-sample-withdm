@@ -85,7 +85,7 @@ public:
             // create the processing thread
             this->m_motion_processor = new Thread();
             if (this->m_motion_processor != NULL) {
-            	this->m_motion_processor->start(Callback(_motion_processor,NULL));
+            	this->m_motion_processor->start(callback(_motion_processor,NULL));
             }
         }
         
