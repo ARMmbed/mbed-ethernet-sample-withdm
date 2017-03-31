@@ -2,7 +2,7 @@
     "config": {
         "network-interface":{
 	    "help": "Options are ETHERNET, WIFI_ESP8266, WIFI_ODIN, MESH_LOWPAN_ND, MESH_THREAD, CELL",
-            "value": "CELL"
+            "value": "ETHERNET"
         },
     "APN":{
         "help" : "APN for cellular network",
